@@ -36,3 +36,26 @@ img {
     border: 2px solid blue;
     min-height: 200px;
 }
+.foto{
+    position: relative;
+}
+.like{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    margin-top: 2px;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+.like:hover{
+color: red;
+}
+.sconto{
+    position: absolute;
+    background-color: red;
+    padding: 5px;
+    bottom: 5%;
+}
